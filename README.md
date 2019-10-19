@@ -1,27 +1,20 @@
-# DragNdropPro
+# Library Link: 
+	- https://github.com/valor-software/ng2-dragula
+	- https://github.com/valor-software/ng2-dragula#usage
+Overview
+The dragula library helps to create drag and drop functionality 
+To install the library, use the command: "npm install ng2-dragula"
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.2.1.
+# Implementation
+•	There's a dragula directive that makes a container's direct children draggable. You must supply a string. Both syntaxes, dragula="VAMPIRES" or [dragula]="'VAMPIRES'", work equally well.
+•	You can group containers together by giving them the same group name. When you do, the children of each container can be dragged to any container in the same group.
+•	Dragula Service can be used which exposes a few different methods with which you can interact with dragula.
 
-## Development server
+# Usage
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+•	There is a button ‘Admin Portal’ when you go to create form after clicking ‘MEF’.
+•	Admin portal will show you layout of JSON and you drag and drop to make changes and Save them.
+•	The form will show you updated JSON upon saved.
 
-## Code scaffolding
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
 
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
