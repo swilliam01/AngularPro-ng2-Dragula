@@ -1,9 +1,14 @@
-# Library Link: 
+## Library Link: 
 	- https://github.com/valor-software/ng2-dragula
 	- https://github.com/valor-software/ng2-dragula#usage
-Overview
+  
+## Overview
 The dragula library helps to create drag and drop functionality 
 To install the library, use the command: "npm install ng2-dragula"
+
+## Hosted Link
+Please follow the link below
+https://dragula-604b6.firebaseapp.com
 
 # Implementation
 •	There's a dragula directive that makes a container's direct children draggable. You must supply a string. Both syntaxes, dragula="VAMPIRES" or [dragula]="'VAMPIRES'", work equally well.
